@@ -2,9 +2,9 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
 $GTK_THEME = Catppuccin-Latte
 $ICON_THEME = Papirus-Latte
-$COLOR_SCHEME=prefer-dark
+$COLOR_SCHEME=prefer-light
 $CURSOR_THEME = Bibata-Modern-Classic
-$CURSOR_SIZE=20                            
+$CURSOR_SIZE=20
 $CODE_THEME=Catppuccin Latte
 
 exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
