@@ -1,8 +1,13 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Latte'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Catppuccin-Latte'
+
+$CURSOR-THEME = Bibata-Modern-Classic
+$GTK-THEME = Catppuccin-Latte
+$ICON-THEME = Papirus-Latte
+
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
-exec = Hyde cursor theme 'Bibata-Modern-Classic' size 20
+exec = Hyde cursor theme '$CURSOR-THEME' size 20
 exec = Hyde code theme 'Catppuccin Latte'
 
 
